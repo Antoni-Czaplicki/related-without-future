@@ -1,5 +1,5 @@
 from decimal import Decimal
-from future.moves.urllib.parse import ParseResult
+from urllib.parse import ParseResult
 from collections import OrderedDict
 from enum import Enum
 from uuid import UUID

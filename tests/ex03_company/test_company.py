@@ -1,7 +1,7 @@
 from datetime import date, datetime
 from uuid import UUID
 
-from future.moves.urllib.parse import ParseResult
+from urllib.parse import ParseResult
 from pytest import fixture, raises
 from six import string_types
 

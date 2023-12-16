@@ -1,6 +1,6 @@
 from collections import OrderedDict
 from uuid import UUID
-from future.moves.urllib.parse import urlparse
+from urllib.parse import urlparse
 from six import string_types, callable
 from datetime import datetime
 from inspect import isfunction

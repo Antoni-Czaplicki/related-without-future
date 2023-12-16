@@ -5,6 +5,8 @@
 
 <br/><br/>
 
+This fork sacrifices support for Python 2.7 in favorof Python 3.12
+
 `Related` is a Python library for creating nested object models
 that can be serialized to and de-serialized from
 nested python dictionaries.
@@ -27,7 +29,7 @@ Example use cases for `related` object models include:
 
 # Requirements
 
-* Python (2.7, 3.5, 3.6)
+* Python 3.5+
 
 
 # Installation

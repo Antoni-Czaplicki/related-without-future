@@ -15,6 +15,5 @@ white = "*"
 [packages]
 attrs = "==22.1.0"
 pyyaml = "*"
-future = "*"
 singledispatch = {version = "*", markers = "python_version<'3.4'"}
 python-dateutil = "*"
