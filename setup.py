@@ -13,9 +13,9 @@ with open('dev-requirements.txt') as dev_requirements_file:
     tests_require = [r.strip() for r in dev_requirements_file.readlines()]
 
 setup(
-    name="related",
-    version='0.7.3',
-    url="https://github.com/genomoncology/related",
+    name="related-without-future",
+    version='0.7.4',
+    url="https://github.com/Antoni-Czaplicki/related-without-future",
 
     package_dir={
         '': 'src'
@@ -52,11 +52,15 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
 )
